@@ -18,7 +18,8 @@ source .venv/bin/activate          # Windows: .venv\Scripts\activate
 pip install claude-agent-sdk
 
 # 3. Auth
-export ANTHROPIC_API_KEY=sk-ant-...   # from console.anthropic.com
+export ANTHROPIC_API_KEY="setx ANTHROPIC_API_KEY=""  # from cls
+# set ANTHROPIC_API_KEY=""
 ```
 
 ## Run order
